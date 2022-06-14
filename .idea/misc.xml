@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GymStats/app/src/main/res/drawable/btn_toggle_background_selector.xml" value="0.147" />
+        <entry key="..\:/GymStats/app/src/main/res/layout/activity_exercise_filters.xml" value="0.228125" />
+        <entry key="..\:/GymStats/app/src/main/res/layout/activity_main.xml" value="0.12545289855072464" />
+        <entry key="..\:/GymStats/app/src/main/res/layout/exercise_filters.xml" value="0.228125" />
+        <entry key="..\:/GymStats/app/src/main/res/layout/fragment_saved_workouts.xml" value="0.1" />
+        <entry key="..\:/GymStats/app/src/main/res/layout/item_current_workout_exercise.xml" value="0.17300724637681159" />
+        <entry key="..\:/GymStats/app/src/main/res/layout/item_current_workout_sets.xml" value="0.17300724637681159" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

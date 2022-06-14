@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skristijan.gymstats">
+
+    <application
+        android:name=".di.RoomDBApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GYMSTATS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GymStats">
+        <activity
+            android:name=".ui.fragments.exercises.exerciseFilters.ExerciseFiltersActivity"
+            android:exported="true"
+            android:label="@string/title_activity_exercise_filters"
+            android:theme="@style/Theme.GymStats.NoActionBar" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.fragments.exercises.exerciseDetails.ExerciseDetailsActivity" />
+        <activity android:name=".ui.fragments.history.historyDetails.WorkoutHistoryDetailsActivity" />
+        <activity android:name=".ui.fragments.workouts.workoutDetails.SavedWorkoutDetailsActivity" />
+        <activity android:name=".ui.chooseExercise.ChooseExerciseActivity" />
+        <activity android:name=".ui.chooseExercise.ReplaceExerciseActivity" />
+        <activity android:name=".ui.fragments.stats.statDetails.StatDetailsActivity" />
+        <activity android:name=".ui.fragments.history.editWorkoutHistory.EditWorkoutHistoryActivity" />
+        <activity android:name=".ui.fragments.workouts.editWorkout.EditWorkoutActivity" />
+    </application>
+
+</manifest>

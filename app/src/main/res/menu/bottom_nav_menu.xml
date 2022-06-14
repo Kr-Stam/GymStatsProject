@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_account"
+        android:title="@string/account" />
+    <item
+        android:id="@+id/workoutHistoryFragment"
+        android:icon="@drawable/ic_history"
+        android:title="@string/history" />
+    <item
+        android:id="@+id/savedWorkoutsFragment"
+        android:icon="@drawable/ic_add"
+        android:title="@string/workouts" />
+    <item
+        android:id="@+id/exerciseFragment"
+        android:icon="@drawable/ic_exercise"
+        android:title="@string/exercises" />
+    <item
+        android:id="@+id/statsFragment"
+        android:icon="@drawable/ic_chart"
+        android:title="@string/stats" />
+</menu>
